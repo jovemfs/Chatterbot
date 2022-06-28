@@ -26,7 +26,7 @@ def start():
     while True:
 
         # terminal opções
-        perguntas = input(f'{os.linesep}Selecione sua dúvida:{os.linesep}1. O que é o Meta Marcha?{os.linesep}2. Preço dos planos{os.linesep}3. Como posso assinar?{os.linesep}4. Proteção de dados{os.linesep}5. Blogs e cursos{os.linesep}6. A equipe{os.linesep}')
+        perguntas = input(f'{os.linesep}{nome}, selecione sua dúvida:{os.linesep}1. O que é o Meta Marcha?{os.linesep}2. Preço dos planos{os.linesep}3. Como posso assinar?{os.linesep}4. Proteção de dados{os.linesep}5. Blogs e cursos{os.linesep}6. A equipe{os.linesep}')
 
         # resposdendo
         respondendo(perguntas, nome)
