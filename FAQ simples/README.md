@@ -1,4 +1,10 @@
-# FAQ - sem biblioteca
+<div align="center">
+
+# Chatbot FAQ - sem biblioteca
+  
+<img height="400px" src="https://www.kunocreative.com/hubfs/Chatbot-evolution-1.png">
+  
+</div><br>
 
 Primeiro teste de chatbot em Python, dessa vez sem o uso de bibliotecas externas e executando apenas em terminal sem o uso de interfaces. O objetivo desse bot é responder FAQs enviando um reply em seu email e testar laço de repetição.
 
