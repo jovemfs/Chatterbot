@@ -6,4 +6,6 @@
   
 </div>
 
-Esse repositório contém os testes de diferentes chatbots em Python, onde cada pasta possui um tipo desses robozinhos. O plano é aplicar o melhor deles - ou uma mistura de vários - em nossa plataforma final para o demoday (você pode encontrar aqui <a href="https://github.com/MetaMarcha">@MetaMarcha</a>). 
+Esse repositório contém os testes de diferentes chatbots em Python, onde cada pasta possui um tipo desses robozinhos com propostas que variam. O plano é aplicar os melhores em nossa plataforma final para o demoday (você pode encontrar aqui <a href="https://github.com/MetaMarcha">@MetaMarcha</a>), visando ampliar o suporte e o contato com nossos clientes.
+
+Para mais informações específicas sobre cada um dos bots, dentro de suas respectivas pastas existem arquivos *README.md* explicando propostas e execução.
