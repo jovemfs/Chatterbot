@@ -14,7 +14,7 @@ ponte = []
 conteudo = []
 
 def enviar_msg_dm(conexao):
-    print(f"[ENVIANDO] Enviando mensagens para {conexao['addr']}")
+    print(f"Enviando mensagens para {conexao['addr']}...")
     for i in range(conexao['last'], len(conteudo)):
         msg_envio = "msg=" + conteudo[i]
         conexao['conn'].send(msg_envio.encode())
@@ -27,7 +27,7 @@ def enviar_msg_lobby():
         enviar_msg_dm(conexao)
 
 def handle_clientes(conn, addr):
-    print(f"[NOVA CONEXAO] Um novo usuario se conectou pelo endereço {addr}")
+    print(f"NOVA CONEXAO [endereço {addr}]")
     global ponte
     global conteudo
     nome = False
@@ -55,7 +55,7 @@ def handle_clientes(conn, addr):
 
 
 def start():
-    print("[INICIANDO] Iniciando Socket")
+    print("Iniciando...")
     server.listen()
     while(True):
         conn, addr = server.accept()

@@ -21,11 +21,11 @@ def enviar(mensagem):
 
 def enviar_msg():
     mensagem = input()
-    enviar("msg=" + mensagem)
+    enviar("Msg: " + mensagem)
 
 def enviar_nome():
-    nome = input('Digite seu nome: ')
-    enviar("nome=" + nome)
+    nome = input('Como gostaria de ser chamado? ')
+    enviar("Nome: " + nome)
 
 def iniciar_envio():
     enviar_nome()
