@@ -2,7 +2,7 @@
 
 # Chat nativo versão 2
   
-<img height="500px" src="https://www.userlike.com/api/proxy/resize/benefits-of-live-chat/chat-benefits.png?height=720">
+<img height="450px" src="https://www.userlike.com/api/proxy/resize/benefits-of-live-chat/chat-benefits.png?height=720">
 
 </div><br>
 
